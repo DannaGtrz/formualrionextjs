@@ -1,12 +1,9 @@
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
-
+import Formulario from "./components/Formulario";
 
 export default function Home() {
   return (
-    <>
-    <Navbar />
-    <Sidebar />
-  </>
+    <main>
+      <Formulario />
+    </main>
   );
 }
